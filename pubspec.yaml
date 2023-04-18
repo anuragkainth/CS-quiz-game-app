@@ -1,0 +1,64 @@
+name: the_quiz_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-63.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  flutter_animate: ^1.0.0
+  flutter_cache_manager: ^3.3.0
+  font_awesome_flutter: ^10.1.0
+  from_css_color: ^2.0.0
+  google_fonts: ^3.0.1
+  intl: ^0.17.0
+  json_path: ^0.4.1
+  json_serializable: ^6.6.1
+  page_transition: ^2.0.4
+  plugin_platform_interface: ^2.1.3
+  provider: ^6.0.4
+  rxdart: ^0.27.4
+  shared_preferences: ^2.0.15
+  timeago: ^3.2.2
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
