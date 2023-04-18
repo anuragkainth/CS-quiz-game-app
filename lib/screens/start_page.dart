@@ -106,6 +106,21 @@ class _StartPageState extends State<StartPage> {
                     ),
                   ),
                 ),
+                SizedBox(height: 20,),
+                Align(
+                  alignment: AlignmentDirectional(0, 0.05),
+                  child: Text(
+                    'By Anurag Kainth',
+                    textAlign: TextAlign.center,
+                    style: GoogleFonts.poppins(
+                        textStyle: TextStyle(
+                            color: Colors.white,
+                            fontSize: 28,
+                            fontWeight: FontWeight.w600
+                        )
+                    ),
+                  ),
+                ),
               ],
             )
           )
